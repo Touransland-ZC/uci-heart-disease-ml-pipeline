@@ -1,19 +1,20 @@
 # python
 __pycache__/
-*.pyc
-*.pyo
+*.py[cod]
+*.pyd
+.ipynb_checkpoints/
+
+# env & IDE
 .venv/
 venv/
 .env
 .env.*
-
-# notebooks
-.ipynb_checkpoints/
-
-# data and models
-data/*.zip
-models/*.pkl
-
-# OS/IDE
-.DS_Store
 .vscode/
+
+# data & artifacts (keep small CSVs, ignore zips)
+data/*.zip
+
+# deployment artifacts (if any)
+deployment/
+ngrok*.yml
+ngrok_*
