@@ -1,0 +1,2 @@
+clean: best=logreg AUC=0.966 path=..\models\final_model_clean.pkl
+selected: best=logreg AUC=0.962 path=..\models\final_model_selected.pkl
