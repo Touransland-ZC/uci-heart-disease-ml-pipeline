@@ -1,4 +1,4 @@
-# UCI Heart Disease — Full ML Pipeline 🫀
+# UCI Heart Disease — Full ML Pipeline
 
 End-to-end machine learning pipeline on the **UCI Heart Disease (Cleveland)** dataset.  
 Covers data access → EDA → PCA → feature selection → supervised learning (baseline & tuning) → unsupervised clustering → export & simple UI.
